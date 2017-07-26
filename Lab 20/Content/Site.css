@@ -1,0 +1,64 @@
+﻿@font-face {
+    font-family: 'SCRIPALT';
+    src: url('../fonts/SCRIPALT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Precious';
+    src: url('../fonts/Precious.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BLKCHCRY';
+    src: url('../fonts/BLKCHCRY.TTF') format('truetype');
+
+}
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('../IMG/food-beans-coffee-drink.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Precious;
+}
+h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: BLKCHCRY;
+}
+    /* Set padding to keep content from hitting the edges */
+    .body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ .navbar-brand {
+    background: #000000;
+    background-image: url('../IMG/CoffeeCup.jpg');
+    background-size: 50px 50px;
+    background-position:left;
+    background-repeat: no-repeat;
+    color:#FFFFFF !important;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#RegForm{
+    font-family: BLKCHCRY;
+    font-weight: bold;
+    color: #FF9900;
+}
+#RegSubmit{
+    font-family: Precious;
+}

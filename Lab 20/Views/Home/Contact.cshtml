@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<form name="Reg" id="RegForm" onsubmit="return validateForm()" action="About" method="post">
+    Name:<br>
+    <input type="text" id ="RegName" name="name" placeholder="Enter Name" required><br>
+    Email:<br>
+    <input type="email" id="RegEmail" name="email" placeholder="Enter Email" required><br />
+
+    <input type="submit" id="RegSubmit" value="Submit">
+
+    </form >
+
